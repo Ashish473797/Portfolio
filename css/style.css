@@ -81,13 +81,13 @@ h3{
     color: #2B3467;
 }
 
-/* project section  */
-#project{
+/* Skill section  */
+#skill{
     background-color: #2B3467;
     color: #ffffff;
     text-align: center;
 }
-.project-image{
+.skill-image{
     width: 40%;
     margin: 20px;
 }
@@ -96,4 +96,40 @@ h3{
 }
 .skills{
     padding-top: 5%;
+}
+
+/* project section  */
+#project{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+.sportify{
+    width: 75%;
+    border-radius: 6%;
+    margin-bottom: 4%;
+}    
+.calculator{
+    width: 69%;
+    border-radius: 6%;
+    margin-bottom: 4%;
+}
+.tictactoe{
+    width: 72%;
+    border-radius: 6%;
+    margin-bottom: 4%;
+}
+
+/* footer section  */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #2B3467;
+    color: #ffffff;
+}
+.footer-icon{
+    margin: 20px 10px;
+    color: #ffffff;
 }
