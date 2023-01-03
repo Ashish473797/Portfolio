@@ -75,8 +75,25 @@ h3{
 }
 .other-icon{
     margin-bottom: 1rem;
-    color: #568dae;
+    color: #BAD7E9;
 }
 .other-icon:hover{
     color: #2B3467;
+}
+
+/* project section  */
+#project{
+    background-color: #2B3467;
+    color: #ffffff;
+    text-align: center;
+}
+.project-image{
+    width: 40%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 3% 15%;
+}
+.skills{
+    padding-top: 5%;
 }
