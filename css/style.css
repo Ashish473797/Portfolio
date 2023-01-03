@@ -1,0 +1,82 @@
+/* universal */
+body{
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 400;
+}
+
+/* navbar section  */
+.container-fluid{
+    padding: 2% 15% 5%;
+}
+.nav-logo{
+    width: 80%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: 'Montserrat' sans-serif;
+    font-weight:400;
+    font-size: 1.2rem;
+}
+
+/* font section  */
+#front-section{
+    background-color: #2B3467;
+    color: #ffffff;
+}
+.profile-image{
+    width: 78%;
+}
+.right-title{
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+.right-shape{
+    float: left;
+    position: absolute;
+}
+.shape{
+    width: 75%;
+    margin-left: 100%;
+    transform: rotate(75deg);
+    margin-top: 70%;
+}
+.profile-title{
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-top: 12%;
+}
+
+/* Other section  */
+#other{
+    padding: 7% 15%;
+    background-color: #ffffff;
+}
+.other-element{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.other-icon{
+    margin-bottom: 1rem;
+    color: #568dae;
+}
+.other-icon:hover{
+    color: #2B3467;
+}
