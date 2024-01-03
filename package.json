@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashish473797/Portfolio.git"
+  },
+  "author": "Ashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashish473797/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Ashish473797/Portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
