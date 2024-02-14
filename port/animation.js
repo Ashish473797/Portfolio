@@ -1,11 +1,11 @@
 let tl = gsap.timeline();
+
 tl.to('#loader', {
     delay: 1,
     duration: 4,
     left: "0%",
-});
-
-tl.to('#upperLoader', {
+})
+.to('#upperLoader', {
     delay: 1,
     duration: 1,
     top: "-51%",
