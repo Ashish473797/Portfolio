@@ -600,6 +600,10 @@ video {
   height: 100svh;
 }
 
+.h-\[50svh\] {
+  height: 50svh;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
