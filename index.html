@@ -3,26 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./port/assets/favicon.ico" type="image/x-icon">
     <title>Port : Loading...</title>
     <link rel="stylesheet" href="./port/style.css">
 </head>
 <body>
 
-        <div id="intro" class="w-[100%] h-[100svh] bg-secondary relative overflow-hidden">
+        <div class="w-[100%] h-[100svh] bg-secondary relative overflow-hidden">
 
-            <div id="upperLoader" class="w-[100%] h-[50svh] bg-primary relative overflow-hidden">
-                <span id="upperText" class="font-montserrat text-[4.2em] md:text-[14em] text-secondary font-bold absolute left-[50%] bottom-0 translate-x-[-50%] translate-y-[50%]">LOADING</span>
+            <div id="upperLoader" class="w-[100%] h-[50svh] bg-primary relative overflow-hidden z-10">
+                <span id="upperText" class="font-montserrat text-[4em] sm:text-[7em] lg:text-[13em] text-secondary font-bold absolute left-[50%] bottom-0 translate-x-[-50%] translate-y-[50%]">LOADING</span>
             </div>
 
-            <main id="about" class="absolute w-[100%] h-[100svh] flex justify-center items-center">
-                <h1 class="font-palanquin text-5xl text-primary">Ashish</h1>
+            <main id="intro" class="absolute w-[100%] h-[100svh]">
+                <nav class="flex justify-between items-center pt-6 pb-6 pl-16 pr-14">
+                    <div>
+                        <span><img src="./port/assets/logo.png" class="w-[32px] sm:w-[56px]" alt=""></span>
+                    </div>
+                    <div>
+                        <ul class="flex gap-8 antialiased text-white font-palanquin text-lg">
+                            <li class="hover:text-powder-blue cursor-pointer">About</li>
+                            <li class="hover:text-powder-blue cursor-pointer">Projects</li>
+                            <li class="hover:text-powder-blue cursor-pointer">Services</li>
+                            <li class="hover:text-powder-blue cursor-pointer">Contact</li>
+                        </ul>
+                    </div>
+                </nav>
+                
             </main>
 
             <div id="lowerLoader" class="w-[100%] h-[50svh] bg-primary relative overflow-hidden outline outline-1 outline-powder-blue">
-                <span id="lowerText" class="font-montserrat text-[4.2em] md:text-[14em] text-secondary font-bold absolute left-[50%] top-0 translate-x-[-50%] translate-y-[-50%] ">LOADING</span>
+                <span id="lowerText" class="font-montserrat text-[4em] sm:text-[7em] lg:text-[13em] text-secondary font-bold absolute left-[50%] top-0 translate-x-[-50%] translate-y-[-50%] ">LOADING</span>
             </div>
 
-            <div id="loader" class="w-[100vw] h-[8px] md:h-[14px] bg-secondary absolute z-10 top-[50%] translate-y-0 left-[-100%] "></div>
+            <div id="loader" class="w-[100vw] h-[8px] md:h-[18px] bg-secondary absolute z-10 top-[50%] translate-y-0 left-[-100%] "></div>
 
         </div>
 

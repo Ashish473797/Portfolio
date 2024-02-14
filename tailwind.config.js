@@ -15,7 +15,8 @@ module.exports = {
         montserrat: ['Montserrat', 'sans-serif'],
       },
       backgroundImage: {
-        'profile': 'url()'
+        'profile': "url('')",
+        'logo': "url('./port/assets/logo.png')"
       }
     },
   },
