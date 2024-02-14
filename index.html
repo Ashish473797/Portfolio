@@ -16,12 +16,13 @@
             </div>
 
             <main id="intro" class="absolute w-[100%] h-[100svh]">
-                <nav class="flex justify-between items-center pt-6 pb-6 pl-16 pr-14">
+
+                <nav class="flex justify-between items-center pt-4 sm:pt-6 pb-4 sm:pb-6 pl-3 sm:pl-16 pr-3 sm:pr-14">
                     <div>
                         <span><img src="./port/assets/logo.png" class="w-[32px] sm:w-[56px]" alt=""></span>
                     </div>
                     <div>
-                        <ul class="flex gap-8 antialiased text-white font-palanquin text-lg">
+                        <ul class="gap-8 antialiased text-white font-palanquin text-lg hidden sm:flex">
                             <li class="hover:text-powder-blue cursor-pointer">About</li>
                             <li class="hover:text-powder-blue cursor-pointer">Projects</li>
                             <li class="hover:text-powder-blue cursor-pointer">Services</li>
@@ -29,10 +30,12 @@
                         </ul>
                     </div>
                 </nav>
+
                 
+
             </main>
 
-            <div id="lowerLoader" class="w-[100%] h-[50svh] bg-primary relative overflow-hidden outline outline-1 outline-powder-blue">
+            <div id="lowerLoader" class="w-[100%] h-[50svh] bg-primary relative overflow-hidden outline outline-1 outline-powder-blue z-10">
                 <span id="lowerText" class="font-montserrat text-[4em] sm:text-[7em] lg:text-[13em] text-secondary font-bold absolute left-[50%] top-0 translate-x-[-50%] translate-y-[-50%] ">LOADING</span>
             </div>
 
