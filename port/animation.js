@@ -9,13 +9,13 @@ tl.to('#upperLoader', {
     delay: 1,
     duration: 1,
     top: "-51%",
-    borderRadius: "24%",
+    // borderRadius: "24%",
 }, 'loader')
 .to('#lowerLoader', {
     delay: 1,
     duration: 1,
     bottom: "-51%",
-    borderRadius: "24%",
+    // borderRadius: "24%",
 }, 'loader')
 .to('#loader', {
     delay: "1",
