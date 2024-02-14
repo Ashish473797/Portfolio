@@ -5,10 +5,11 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#FFFFFF',
-        'secondary': '#222222',
+        'secondary': '#111111',
         'lapis-blue': '#1C5D99',
         'moonstone': '#639FAB',
         'powder-blue': '#BBCDE5',
+        'voli':'#6320EE',
       },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
