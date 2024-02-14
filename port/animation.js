@@ -1,7 +1,7 @@
 let tl = gsap.timeline();
 tl.to('#loader', {
     delay: 1,
-    duration: 5,
+    duration: 4,
     left: "0%",
 });
 
@@ -37,7 +37,7 @@ tl.to('#upperLoader', {
 }, 'loader')
 .to('section', {
     display: "block",
-}, 8)
+}, 7)
 
 
 
