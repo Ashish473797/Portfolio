@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'Eerie black': '#222222',
-        'White': '#FFFFFF',
-        'Lapis Lazuli': '#1C5D99',
-        'Moonstone': '#639FAB',
-        'Powder blue': '#BBCDE5',
+        'primary': '#FFFFFF',
+        'secondary': '#222222',
+        'lapis-blue': '#1C5D99',
+        'moonstone': '#639FAB',
+        'powder-blue': '#BBCDE5',
       },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
