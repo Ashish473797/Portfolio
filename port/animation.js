@@ -1,3 +1,10 @@
+let myCursor = document.querySelector('#myCursor');
+
+window.addEventListener('mousemove', (currPosition) => {
+    myCursor.style.transform = `translate(${currPosition.clientX - 25}px, ${currPosition.clientY - 25}px)`; 
+})
+
+
 let tl = gsap.timeline();
 
 tl.to('#loader', {
@@ -35,10 +42,6 @@ tl.to('#loader', {
 }, 'loader')
 .to('section', {
     display: "block",
-}, 7)
-
-
-
-
+}, 7);
 
 
