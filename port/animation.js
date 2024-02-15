@@ -1,7 +1,7 @@
 let myCursor = document.querySelector('#myCursor');
 
 window.addEventListener('mousemove', (currPosition) => {
-    myCursor.style.transform = `translate(${currPosition.clientX - 25}px, ${currPosition.clientY - 25}px)`; 
+    myCursor.style.transform = `translate(${currPosition.clientX - 25}px, ${currPosition.clientY - 25}px)`;
 })
 
 

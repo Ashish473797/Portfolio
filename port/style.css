@@ -608,6 +608,10 @@ video {
   z-index: 20;
 }
 
+.z-40{
+  z-index: 40;
+}
+
 .flex{
   display: flex;
 }
@@ -979,6 +983,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:block{
+    display: block;
+  }
+
   .md\:h-\[18px\]{
     height: 18px;
   }
