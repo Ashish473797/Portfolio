@@ -649,6 +649,14 @@ video {
   height: 10svh;
 }
 
+.h-\[92svh\]{
+  height: 92svh;
+}
+
+.h-\[8svh\]{
+  height: 8svh;
+}
+
 .w-16{
   width: 4rem;
 }
@@ -771,6 +779,11 @@ video {
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pb-4{
@@ -921,6 +934,10 @@ video {
 
   .sm\:w-\[58px\]{
     width: 58px;
+  }
+
+  .sm\:w-\[5px\]{
+    width: 5px;
   }
 
   .sm\:px-6{
