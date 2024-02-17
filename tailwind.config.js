@@ -9,7 +9,6 @@ module.exports = {
         'lapis-blue': '#1C5D99',
         'moonstone': '#639FAB',
         'powder-blue': '#BBCDE5',
-        'voli':'#6320EE',
       },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
