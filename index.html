@@ -29,14 +29,24 @@
 
         </header>
 
-        <div class="myLoader">
-            
+        <div class="myLoader absolute top-0 w-[100%] h-[100svh] overflow-hidden">
+
+            <div id="upperLoader" class="w-[100%] h-[50svh] bg-primary relative overflow-hidden">
+                <span id="upperText" class="font-montserrat text-[4em] sm:text-[7em] lg:text-[13em] text-secondary font-bold absolute left-[50%] bottom-0 translate-x-[-50%] translate-y-[50%]">LOADING</span>
+            </div>
+
+            <div id="lowerLoader" class="w-[100%] h-[50svh] bg-primary relative overflow-hidden outline outline-1 outline-powder-blue">
+                <span id="lowerText" class="font-montserrat text-[4em] sm:text-[7em] lg:text-[13em] text-secondary font-bold absolute left-[50%] top-0 translate-x-[-50%] translate-y-[-50%] ">LOADING</span>
+            </div>
+
+            <div id="loader" class="w-[100vw] h-[8px] md:h-[18px] bg-secondary absolute z-10 top-[50%] translate-y-0 left-[-100%] "></div>
+
         </div>
 
-        <section class="about w-[100%] h-[85svh] bg-moonstone">
+        <section class="about w-[100%] h-[100vh] bg-moonstone hidden">
 
         </section>
-        <section class="about w-[100%] h-[85svh] bg-lapis-blue">
+        <section class="about w-[100%] h-[100vh] bg-lapis-blue hidden">
 
         </section>
 

@@ -761,6 +761,11 @@ video {
   background-color: rgb(17 17 17 / var(--tw-bg-opacity));
 }
 
+.bg-powder-blue{
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 205 229 / var(--tw-bg-opacity));
+}
+
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
