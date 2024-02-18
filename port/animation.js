@@ -13,6 +13,7 @@ li.forEach(element => {
     element.addEventListener('mouseover', (e) => {
         gsap.to('#myCursor', {
             scale: 1.8,
+            duration: 0.3,
         })
     })
 });
@@ -21,6 +22,7 @@ li.forEach(element => {
     element.addEventListener('mouseleave', (e) => {
         gsap.to('#myCursor', {
             scale: 1,
+            duration: 0.3,
         })
     })
 });
@@ -32,6 +34,7 @@ icons.forEach(element => {
     element.addEventListener('mouseover', (e) => {
         gsap.to('#myCursor', {
             scale: 1.8,
+            duration: 0.3,
         })
     })
 });
@@ -40,6 +43,7 @@ icons.forEach(element => {
     element.addEventListener('mouseleave', (e) => {
         gsap.to('#myCursor', {
             scale: 1,
+            duration: 0.3,
         })
     })
 });
@@ -49,12 +53,14 @@ let logo = document.querySelector('.logo');
 logo.addEventListener('mouseover', (e) => {
     gsap.to('#myCursor', {
         scale: 2,
+        duration: 0.3,
     })
 })
 
 logo.addEventListener('mouseleave', (e) => {
     gsap.to('#myCursor', {
         scale: 1,
+        duration: 0.3,
     })
 })
 

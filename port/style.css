@@ -778,6 +778,14 @@ video {
   padding-top: 54px;
 }
 
+.pt-\[80px\]{
+  padding-top: 80px;
+}
+
+.pt-\[60px\]{
+  padding-top: 60px;
+}
+
 .font-montserrat{
   font-family: Montserrat, sans-serif;
 }
