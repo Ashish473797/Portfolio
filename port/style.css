@@ -742,7 +742,7 @@ video {
 }
 
 .bg-profile{
-  background-image: url('/port/assets/profile.jfif');
+  background-image: url('/port/assets/profile.png');
 }
 
 .bg-cover{
@@ -758,32 +758,12 @@ video {
   padding-top: 1.5rem;
 }
 
-.pt-\[50px\]{
-  padding-top: 50px;
-}
-
-.pt-\[64px\]{
-  padding-top: 64px;
-}
-
-.pt-\[px\]{
-  padding-top: px;
-}
-
-.pt-\[72px\]{
-  padding-top: 72px;
-}
-
-.pt-\[54px\]{
-  padding-top: 54px;
+.pt-\[60px\]{
+  padding-top: 60px;
 }
 
 .pt-\[80px\]{
   padding-top: 80px;
-}
-
-.pt-\[60px\]{
-  padding-top: 60px;
 }
 
 .font-montserrat{
