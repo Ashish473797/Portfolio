@@ -6,30 +6,57 @@
     <link rel="shortcut icon" href="./port/assets/fevicons/favicon.ico" type="image/x-icon">
     <title>Portfolio - Ashish Kumar Gupta</title>
     <link rel="stylesheet" href="./port/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
     <main class="bg-secondary text-primary overflow-hidden">
 
-        <div class="myCursor hidden lg:block w-16 h-16 rounded-full bg-lapis-blue fixed translate-x-[-50%] translate-y-[-50%]"></div>
+        <!-- my cursor  -->
+        <div id="myCursor" class="hidden lg:block w-12 h-12 rounded-full bg-lapis-blue fixed translate-x-[-50%] translate-y-[-50%] overflow-hidden"></div>
 
-        <nav class="w-[100%] h-[8svh] sm:h-[12svh] max-w-screen-xl mx-auto flex justify-between items-center relative px-2 sm:px-6">
-            <span><img src="./port/assets/logo.png" class="w-[42px] sm:w-[58px] md:w-[68px] brightness-110" alt="logo"></span>
+        <!-- navbar  -->
+        <nav class="w-[100%] h-[8svh] sm:h-[12svh] max-w-screen-xl mx-auto flex justify-between items-center px-2 sm:px-6 relative z-10">
+
+            <span class="logo"><img src="./port/assets/logo.png" class="w-[42px] sm:w-[58px] md:w-[68px] brightness-110" alt="logo"></span>
+
             <div>
                 <ul class="gap-12 text-[1.1em] text-gray-200 font-palanquin hidden sm:flex pt-6">
-                    <li class="cursor-pointer">About</li>
-                    <li class="cursor-pointer">Projects</li>
-                    <li class="cursor-pointer">Services</li>
-                    <li class="cursor-pointer">Contact</li>
+                    <li class="menuList cursor-pointer">About</li>
+                    <li class="menuList cursor-pointer">Projects</li>
+                    <li class="menuList cursor-pointer">Services</li>
+                    <li class="menuList cursor-pointer">Contact</li>
                 </ul>
             </div>
+
         </nav>
 
-        <header class="w-[100vw] h-[92svh] sm:h-[88svh]">
-            
+        <!-- hero section  -->
+        <header class="w-[100%] h-[92svh] sm:h-[88svh] max-w-screen-xl mx-auto flex flex-col md:flex-row relative z-10">
+
+            <div class="w-[100%] lg:w-[36%] pt-[64px] md:pt-[120px] lg:pt-[140px] flex justify-center">
+                <div class="w-[160px] h-[160px] md:w-[220px] md:h-[220px] lg:w-[320px] lg:h-[320px] rounded-full bg-profile bg-cover"></div>
+            </div>
+
+            <div class="w-[100%] lg:w-[64%] pt-[50px] sm:pt-[140px] lg:pt-[150px]">
+                <div class="w-[100%] max-sm:flex flex-col items-center">
+                    <h1 class="text-lg sm:text-xl md:text-2xl lg:text-4xl font-palanquin mb-4 sm:mb-4 lg:mb-6">👋Hello, I am Ashish</h1>
+                    <h2 class="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-montserrat font-bold mb-1 lg:mb-2">Software Developer.</h2>
+                    <p class=" text-sm sm:text-base lg:text-lg font-sans text-gray-200">Develop and Design Responsive Applications.</p>
+                    <div class="w-[100%] lg:flex gap-14 hidden md:pt-10 lg:pt-16 text-4xl text-powder-blue">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+            </div>
+
         </header>
 
-        <div class="myLoader absolute top-0 w-[100%] h-[100svh] overflow-hidden">
+        <!-- loaderpage  -->
+        <div id="myLoader" class="absolute z-20 top-0 w-[100%] h-[100svh] overflow-hidden">
 
             <div id="upperLoader" class="w-[100%] h-[50svh] bg-primary relative overflow-hidden">
                 <span id="upperText" class="font-montserrat text-[4em] sm:text-[6em] lg:text-[12em] xl:[16em] text-secondary font-bold absolute left-[50%] bottom-0 translate-x-[-50%] translate-y-[50%]">LOADING</span>
@@ -43,7 +70,7 @@
 
         </div>
 
-        <section class="about w-[100%] h-[100vh] bg-moonstone hidden">
+        <section class="about w-[100%] h-[100vh] bg-powder-blue hidden">
 
         </section>
 
