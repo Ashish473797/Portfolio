@@ -774,6 +774,26 @@ video {
   padding-top: 80px;
 }
 
+.pt-\[px\]{
+  padding-top: px;
+}
+
+.pt-\[100px\]{
+  padding-top: 100px;
+}
+
+.pt-\[54px\]{
+  padding-top: 54px;
+}
+
+.pt-\[120px\]{
+  padding-top: 120px;
+}
+
+.pt-\[140px\]{
+  padding-top: 140px;
+}
+
 .font-montserrat{
   font-family: Montserrat, sans-serif;
 }
@@ -812,6 +832,11 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold{
@@ -924,6 +949,11 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .sm\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 768px){
@@ -959,6 +989,11 @@ video {
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
