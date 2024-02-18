@@ -661,14 +661,6 @@ video {
   width: 42px;
 }
 
-.w-\[1\]{
-  width: 1;
-}
-
-.w-\[100\]{
-  width: 100;
-}
-
 .max-w-screen-xl{
   max-width: 1280px;
 }
@@ -749,14 +741,6 @@ video {
   background-color: rgb(17 17 17 / var(--tw-bg-opacity));
 }
 
-.bg-profile{
-  background-image: url('/port/assets/profile.png');
-}
-
-.bg-cover{
-  background-size: cover;
-}
-
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -766,32 +750,12 @@ video {
   padding-top: 1.5rem;
 }
 
-.pt-\[60px\]{
-  padding-top: 60px;
-}
-
-.pt-\[80px\]{
-  padding-top: 80px;
-}
-
-.pt-\[px\]{
-  padding-top: px;
-}
-
-.pt-\[100px\]{
-  padding-top: 100px;
+.pt-\[140px\]{
+  padding-top: 140px;
 }
 
 .pt-\[54px\]{
   padding-top: 54px;
-}
-
-.pt-\[120px\]{
-  padding-top: 120px;
-}
-
-.pt-\[140px\]{
-  padding-top: 140px;
 }
 
 .font-montserrat{
@@ -822,11 +786,6 @@ video {
 
 .text-\[4em\]{
   font-size: 4em;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-sm{
@@ -931,6 +890,11 @@ video {
     padding-top: 140px;
   }
 
+  .sm\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .sm\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -943,16 +907,6 @@ video {
   .sm\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .sm\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
@@ -981,19 +935,14 @@ video {
     padding-top: 120px;
   }
 
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 }
 
