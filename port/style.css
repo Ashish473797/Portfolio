@@ -766,6 +766,18 @@ video {
   padding-top: 64px;
 }
 
+.pt-\[px\]{
+  padding-top: px;
+}
+
+.pt-\[72px\]{
+  padding-top: 72px;
+}
+
+.pt-\[54px\]{
+  padding-top: 54px;
+}
+
 .font-montserrat{
   font-family: Montserrat, sans-serif;
 }
