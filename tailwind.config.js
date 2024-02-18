@@ -16,7 +16,7 @@ module.exports = {
       },
       backgroundImage: {
         'profile': "url('/port/assets/profile.png')",
-        'logo': "url('/port/assets/logo.png')"
+        'logo': "url('./port/assets/logo.png')"
       }
     },
   },
