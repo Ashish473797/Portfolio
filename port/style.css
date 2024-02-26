@@ -889,6 +889,10 @@ video {
   padding-top: 54px;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .indent-10{
   text-indent: 2.5rem;
 }
@@ -1037,6 +1041,10 @@ video {
 @media not all and (min-width: 640px){
   .max-sm\:flex{
     display: flex;
+  }
+
+  .max-sm\:text-center{
+    text-align: center;
   }
 }
 
