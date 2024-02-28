@@ -577,12 +577,36 @@ video {
   top: 50%;
 }
 
+.right-0 {
+  right: 0px;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.right-16 {
+  right: 4rem;
+}
+
 .z-10 {
   z-index: 10;
 }
 
 .z-20 {
   z-index: 20;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .mx-auto {
@@ -694,12 +718,60 @@ video {
   width: 580px;
 }
 
+.w-\[700px\] {
+  width: 700px;
+}
+
+.w-\[320px\] {
+  width: 320px;
+}
+
+.w-\[540px\] {
+  width: 540px;
+}
+
+.w-\[720px\] {
+  width: 720px;
+}
+
+.w-\[760px\] {
+  width: 760px;
+}
+
+.w-\[740px\] {
+  width: 740px;
+}
+
+.w-\[780px\] {
+  width: 780px;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-\[840px\] {
+  width: 840px;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
 }
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-\[\] {
+  flex: ;
+}
+
+.flex-\[80\%\] {
+  flex: 80%;
+}
+
+.flex-\[75\%\] {
+  flex: 75%;
 }
 
 .translate-x-\[-50\%\] {
@@ -836,6 +908,42 @@ video {
 
 .pt-\[54px\] {
   padding-top: 54px;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[6\] {
+  padding-bottom: 6;
+}
+
+.pb-\[4\] {
+  padding-bottom: 4;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-64 {
+  padding-bottom: 16rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pb-80 {
+  padding-bottom: 20rem;
+}
+
+.pb-9 {
+  padding-bottom: 2.25rem;
+}
+
+.pb-96 {
+  padding-bottom: 24rem;
 }
 
 .text-center {
@@ -1081,8 +1189,22 @@ video {
     padding-bottom: 8rem;
   }
 
+  .sm\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .sm\:py-7 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
   .sm\:pt-\[140px\] {
     padding-top: 140px;
+  }
+
+  .sm\:pt-32 {
+    padding-top: 8rem;
   }
 
   .sm\:text-2xl {
@@ -1102,6 +1224,11 @@ video {
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .sm\:font-semibold {
@@ -1215,6 +1342,16 @@ video {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
   }
 
   .lg\:tracking-wide {
