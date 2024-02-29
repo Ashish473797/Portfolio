@@ -754,6 +754,10 @@ video {
   gap: 1rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -847,6 +851,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pl-2 {
@@ -1149,6 +1158,10 @@ video {
 
   .sm\:w-\[58px\] {
     width: 58px;
+  }
+
+  .sm\:gap-4 {
+    gap: 1rem;
   }
 
   .sm\:rounded-xl {
