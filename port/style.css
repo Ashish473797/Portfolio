@@ -858,6 +858,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-\[3px\] {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
 }
