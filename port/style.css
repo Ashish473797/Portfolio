@@ -678,6 +678,22 @@ video {
   width: 612px;
 }
 
+.w-\[624px\] {
+  width: 624px;
+}
+
+.w-\[632px\] {
+  width: 632px;
+}
+
+.w-\[6px\] {
+  width: 6px;
+}
+
+.w-\[640px\] {
+  width: 640px;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
 }
