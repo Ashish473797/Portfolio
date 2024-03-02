@@ -68,7 +68,7 @@ let tl = gsap.timeline();
 
 tl.to('#loader', {
     delay: 1,
-    duration: 4,
+    duration: 3,
     left: "0%",
 })
 .to('#upperLoader', {
@@ -101,10 +101,10 @@ tl.to('#loader', {
 }, 'loading')
 .to('section', {
     display: "block",
-}, 7)
+}, 6)
 .to('#myLoader', {
     display: 'none',
-}, 7);
-// .from('.icons', {
-//     scale: 0,
-// }, 7);
+}, 7)
+.from('.icons', {
+    scale: 0,
+}, 6);

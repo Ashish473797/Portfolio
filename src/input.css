@@ -1,5 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -11,28 +11,6 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-
-/* #scroller::before {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 100%;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0%), rgba(0, 0, 0, 50%), rgba(0, 0, 0));
-    content: " ";
-} */
-
-/* #scroller::after {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    width: 200px;
-    height: 100%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0%), rgba(0, 0, 0, 50%), rgba(0, 0, 0));
-    content: " ";
-} */
 
 #scrollText{
     animation: 20s autoScroll infinite linear;
