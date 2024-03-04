@@ -834,6 +834,10 @@ video {
   padding-left: 0.75rem;
 }
 
+.pl-\[\]{
+  padding-left: ;
+}
+
 .pt-6{
   padding-top: 1.5rem;
 }
@@ -846,12 +850,36 @@ video {
   padding-top: 54px;
 }
 
-.font-mont{
-  font-family: Montserrat, sans-serif;
+.pl-\[9px\]{
+  padding-left: 9px;
+}
+
+.pl-\[10px\]{
+  padding-left: 10px;
+}
+
+.pl-4{
+  padding-left: 1rem;
+}
+
+.pl-\[14px\]{
+  padding-left: 14px;
+}
+
+.pl-\[1px\]{
+  padding-left: 1px;
+}
+
+.pl-\[12px\]{
+  padding-left: 12px;
 }
 
 .font-fira{
   font-family: Fira sans, sans-serif;
+}
+
+.font-mont{
+  font-family: Montserrat, sans-serif;
 }
 
 .text-3xl{
