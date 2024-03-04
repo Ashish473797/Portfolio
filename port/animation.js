@@ -104,7 +104,4 @@ tl.to('#loader', {
 }, 6)
 .to('#myLoader', {
     display: 'none',
-}, 7)
-.from('.icons', {
-    scale: 0,
-}, 6);
+}, 7);

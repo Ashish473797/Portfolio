@@ -11,8 +11,8 @@ module.exports = {
         'powder-blue': '#BBCDE5',
       },
       fontFamily: {
-        palanquin: ['Palanquin', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
+        fira: ['Fira sans', 'sans-serif'],
+        mont: ['Montserrat', 'sans-serif'],
       },
       backgroundImage: {
         'profile': "url('/port/assets/profile.png')",
