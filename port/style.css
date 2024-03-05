@@ -1076,6 +1076,16 @@ video {
     padding: 2rem;
   }
 
+  .max-sm\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .max-sm\:py-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .max-sm\:text-center{
     text-align: center;
   }
