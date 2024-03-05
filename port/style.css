@@ -1072,6 +1072,10 @@ video {
     padding: 1rem;
   }
 
+  .max-sm\:p-8{
+    padding: 2rem;
+  }
+
   .max-sm\:text-center{
     text-align: center;
   }
