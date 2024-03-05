@@ -588,18 +588,6 @@ video {
   z-index: 20;
 }
 
-.order-1{
-  order: 1;
-}
-
-.order-2{
-  order: 2;
-}
-
-.order-4{
-  order: 4;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -683,18 +671,6 @@ video {
 
 .max-w-screen-xl{
   max-width: 1280px;
-}
-
-.flex-\[26\%\]{
-  flex: 26%;
-}
-
-.flex-\[30\%\]{
-  flex: 30%;
-}
-
-.flex-\[0\%\]{
-  flex: 0%;
 }
 
 .flex-\[40\%\]{
@@ -808,9 +784,9 @@ video {
   padding-right: 0.75rem;
 }
 
-.py-28{
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .py-3{
@@ -836,16 +812,6 @@ video {
 .py-\[3px\]{
   padding-top: 3px;
   padding-bottom: 3px;
-}
-
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 }
 
 .pl-2{
@@ -878,14 +844,6 @@ video {
 
 .pt-\[54px\]{
   padding-top: 54px;
-}
-
-.pt-4{
-  padding-top: 1rem;
-}
-
-.pt-2{
-  padding-top: 0.5rem;
 }
 
 .text-justify{
@@ -1062,28 +1020,12 @@ video {
 }
 
 @media not all and (min-width: 640px){
-  .max-sm\:order-2{
-    order: 2;
-  }
-
-  .max-sm\:order-1{
-    order: 1;
-  }
-
   .max-sm\:flex{
     display: flex;
   }
 
   .max-sm\:gap-4{
     gap: 1rem;
-  }
-
-  .max-sm\:p-4{
-    padding: 1rem;
-  }
-
-  .max-sm\:p-8{
-    padding: 2rem;
   }
 
   .max-sm\:px-8{
@@ -1102,14 +1044,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:order-2{
-    order: 2;
-  }
-
-  .sm\:order-1{
-    order: 1;
-  }
-
   .sm\:mb-4{
     margin-bottom: 1rem;
   }
@@ -1136,18 +1070,6 @@ video {
 
   .sm\:w-\[58px\]{
     width: 58px;
-  }
-
-  .sm\:flex-\[74\%\]{
-    flex: 74%;
-  }
-
-  .sm\:flex-\[70\%\]{
-    flex: 70%;
-  }
-
-  .sm\:flex-\[0\%\]{
-    flex: 0%;
   }
 
   .sm\:flex-\[60\%\]{
@@ -1177,24 +1099,9 @@ video {
     padding-bottom: 0.5rem;
   }
 
-  .sm\:py-40{
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-  }
-
   .sm\:py-7{
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
-  }
-
-  .sm\:py-3{
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-  }
-
-  .sm\:py-36{
-    padding-top: 9rem;
-    padding-bottom: 9rem;
   }
 
   .sm\:pl-12{
