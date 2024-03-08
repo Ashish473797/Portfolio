@@ -1104,6 +1104,11 @@ video {
     padding-bottom: 1.75rem;
   }
 
+  .sm\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .sm\:pl-12{
     padding-left: 3rem;
   }
@@ -1114,6 +1119,10 @@ video {
 
   .sm\:pt-\[140px\]{
     padding-top: 140px;
+  }
+
+  .sm\:text-justify{
+    text-align: justify;
   }
 
   .sm\:text-2xl{
@@ -1151,6 +1160,14 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:mb-16{
+    margin-bottom: 4rem;
+  }
+
+  .md\:mb-32{
+    margin-bottom: 8rem;
+  }
+
   .md\:h-\[220px\]{
     height: 220px;
   }
