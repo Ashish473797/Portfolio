@@ -104,4 +104,18 @@ tl.to('#loader', {
 }, 6)
 .to('#myLoader', {
     display: 'none',
-}, 7);
+}, 7)
+.to('.sliderTwo', {
+    left: '-100%',
+    duration: 0.6,
+},'a')
+.to('.slider', {
+    delay: 0.2,
+    left: '-100%',
+    duration: 0.5,
+}, 'a')
+.from('.slider-content', {
+    delay: 0.5,
+    duration: 1,
+    y: 80,
+}, 'a')

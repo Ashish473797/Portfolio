@@ -36,10 +36,10 @@
     }
 }
 
-#about p::before{
+.tag::before{
     content: '<';
 }
-#about p::after{
+.tag::after{
     content: '>';
 }
 
