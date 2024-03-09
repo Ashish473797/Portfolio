@@ -115,7 +115,7 @@ tl.to('#loader', {
     duration: 0.5,
 }, 'a')
 .from('.slider-content', {
-    delay: 0.5,
+    delay: 0.2,
     duration: 1,
     y: 80,
 }, 'a')
