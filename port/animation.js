@@ -114,7 +114,7 @@ gsap.to('.projectOneInnerSlider', {
     scrollTrigger: {
         trigger: '.projectOneInnerSlider',
         scroller: 'body',
-        start: 'top -175%',
+        start: 'top -160%',
     }
 },);
 gsap.to('.projectOneOuterSlider',{
@@ -123,7 +123,7 @@ gsap.to('.projectOneOuterSlider',{
     scrollTrigger: {
         trigger: '.projectOneOuterSlider',
         scroller: 'body',
-        start: 'top -175%',
+        start: 'top -160%',
     }
 },);
 gsap.from('.projectOneSlider-content', {
@@ -133,7 +133,7 @@ gsap.from('.projectOneSlider-content', {
     scrollTrigger: {
         trigger: '.projectOneSlider-content',
         scroller: 'body',
-        start: 'top -175%',
+        start: 'top -160%',
     }
 },);
 
@@ -146,7 +146,7 @@ gsap.to('.projectTwoInnerSlider', {
     scrollTrigger: {
         trigger: '.projectTwoInnerSlider',
         scroller: 'body',
-        start: 'top -200%',
+        start: 'top -180%',
     }
 },);
 gsap.to('.projectTwoOuterSlider',{
@@ -155,7 +155,7 @@ gsap.to('.projectTwoOuterSlider',{
     scrollTrigger: {
         trigger: '.projectTwoOuterSlider',
         scroller: 'body',
-        start: 'top -200%',
+        start: 'top -180%',
     }
 },);
 gsap.from('.projectTwoSlider-content', {
@@ -165,7 +165,7 @@ gsap.from('.projectTwoSlider-content', {
     scrollTrigger: {
         trigger: '.projectTwoSlider-content',
         scroller: 'body',
-        start: 'top -200%',
+        start: 'top -180%',
     }
 },);
 
@@ -178,7 +178,7 @@ gsap.to('.projectThreeInnerSlider', {
     scrollTrigger: {
         trigger: '.projectThreeInnerSlider',
         scroller: 'body',
-        start: 'top -225%',
+        start: 'top -200%',
     }
 },);
 gsap.to('.projectThreeOuterSlider',{
@@ -187,7 +187,7 @@ gsap.to('.projectThreeOuterSlider',{
     scrollTrigger: {
         trigger: '.projectThreeOuterSlider',
         scroller: 'body',
-        start: 'top -225%',
+        start: 'top -200%',
     }
 },);
 gsap.from('.projectThreeSlider-content', {
@@ -197,6 +197,6 @@ gsap.from('.projectThreeSlider-content', {
     scrollTrigger: {
         trigger: '.projectThreeSlider-content',
         scroller: 'body',
-        start: 'top -225%',
+        start: 'top -200%',
     }
 },);
