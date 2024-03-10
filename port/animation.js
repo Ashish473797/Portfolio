@@ -106,33 +106,97 @@ tl.to('#loader', {
     display: 'none',
 }, 7);
 
-
-gsap.to('.sliderTwo',{
-    left: '-100%',
-    duration: 0.6,
-    scrollTrigger: {
-        trigger: '.sliderTwo',
-        scroller: 'body',
-        start: 'top -160%',
-    }
-},);
-gsap.to('.slider', {
+// for project one 
+gsap.to('.projectOneInnerSlider', {
     delay: 0.2,
     left: '-100%',
     duration: 0.5,
     scrollTrigger: {
-        trigger: '.slider',
+        trigger: '.projectOneInnerSlider',
         scroller: 'body',
         start: 'top -180%',
     }
 },);
-gsap.from('.slider-content', {
+gsap.to('.projectOneOuterSlider',{
+    left: '-100%',
+    duration: 0.6,
+    scrollTrigger: {
+        trigger: '.projectOneOuterSlider',
+        scroller: 'body',
+        start: 'top -180%',
+    }
+},);
+gsap.from('.projectOneSlider-content', {
     delay: 0.2,
     duration: 1,
     y: 80,
     scrollTrigger: {
-        trigger: '.slider-content',
+        trigger: '.projectOneSlider-content',
         scroller: 'body',
-        start: 'top -160%',
+        start: 'top -180%',
+    }
+},);
+
+
+// for project two 
+gsap.to('.projectTwoInnerSlider', {
+    delay: 0.2,
+    left: '-100%',
+    duration: 0.5,
+    scrollTrigger: {
+        trigger: '.projectTwoInnerSlider',
+        scroller: 'body',
+        start: 'top -210%',
+    }
+},);
+gsap.to('.projectTwoOuterSlider',{
+    left: '-100%',
+    duration: 0.6,
+    scrollTrigger: {
+        trigger: '.projectTwoOuterSlider',
+        scroller: 'body',
+        start: 'top -210%',
+    }
+},);
+gsap.from('.projectTwoSlider-content', {
+    delay: 0.2,
+    duration: 1,
+    y: 80,
+    scrollTrigger: {
+        trigger: '.projectTwoSlider-content',
+        scroller: 'body',
+        start: 'top -210%',
+    }
+},);
+
+
+// for project Three
+gsap.to('.projectThreeInnerSlider', {
+    delay: 0.2,
+    left: '-100%',
+    duration: 0.5,
+    scrollTrigger: {
+        trigger: '.projectThreeInnerSlider',
+        scroller: 'body',
+        start: 'top -240%',
+    }
+},);
+gsap.to('.projectThreeOuterSlider',{
+    left: '-100%',
+    duration: 0.6,
+    scrollTrigger: {
+        trigger: '.projectThreeOuterSlider',
+        scroller: 'body',
+        start: 'top -240%',
+    }
+},);
+gsap.from('.projectThreeSlider-content', {
+    delay: 0.2,
+    duration: 1,
+    y: 80,
+    scrollTrigger: {
+        trigger: '.projectThreeSlider-content',
+        scroller: 'body',
+        start: 'top -240%',
     }
 },);
