@@ -106,46 +106,23 @@ tl.to('#loader', {
     display: 'none',
 }, 7);
 
-// .to('.sliderTwo', {
-//     left: '-100%',
-//     duration: 0.6,
-// },'a')
-
-
-
 
 gsap.to('.sliderTwo',{
     left: '-100%',
     duration: 0.6,
     scrollTrigger: {
-        markers: true,
         trigger: '.sliderTwo',
         scroller: 'body',
         start: 'top -160%',
-        scrub: 3,
     }
-});
+}, 'a');
 gsap.to('.slider', {
-    delay: 0.5,
+    delay: 0.2,
     left: '-100%',
     duration: 0.5,
-    scrollTrigger: {
-        markers: true,
-        trigger: '.sliderTwo',
-        scroller: 'body',
-        start: 'top -160%',
-        scrub: 3,
-    }
-});
+}, 'a');
 gsap.from('.slider-content', {
     delay: 0.2,
     duration: 1,
     y: 80,
-    scrollTrigger: {
-        markers: true,
-        trigger: '.sliderTwo',
-        scroller: 'body',
-        start: 'top -160%',
-        scrub: 3,
-    }
-});
+}, 'a');
