@@ -115,14 +115,24 @@ gsap.to('.sliderTwo',{
         scroller: 'body',
         start: 'top -160%',
     }
-}, 'a');
+},);
 gsap.to('.slider', {
     delay: 0.2,
     left: '-100%',
     duration: 0.5,
-}, 'a');
+    scrollTrigger: {
+        trigger: '.slider',
+        scroller: 'body',
+        start: 'top -180%',
+    }
+},);
 gsap.from('.slider-content', {
     delay: 0.2,
     duration: 1,
     y: 80,
-}, 'a');
+    scrollTrigger: {
+        trigger: '.slider-content',
+        scroller: 'body',
+        start: 'top -160%',
+    }
+},);
