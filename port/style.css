@@ -1080,6 +1080,10 @@ video {
 }
 
 @media not all and (min-width: 640px){
+  .max-sm\:order-2{
+    order: 2;
+  }
+
   .max-sm\:flex{
     display: flex;
   }
@@ -1104,6 +1108,10 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:order-2{
+    order: 2;
+  }
+
   .sm\:mb-4{
     margin-bottom: 1rem;
   }
@@ -1236,6 +1244,14 @@ video {
 
   .sm\:font-semibold{
     font-weight: 600;
+  }
+}
+
+@media not all and (min-width: 640px){
+  @media (min-width: 640px){
+    .max-sm\:sm\:order-2{
+      order: 2;
+    }
   }
 }
 
