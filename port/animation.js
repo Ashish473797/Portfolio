@@ -104,18 +104,48 @@ tl.to('#loader', {
 }, 6)
 .to('#myLoader', {
     display: 'none',
-}, 7)
-.to('.sliderTwo', {
+}, 7);
+
+// .to('.sliderTwo', {
+//     left: '-100%',
+//     duration: 0.6,
+// },'a')
+
+
+
+
+gsap.to('.sliderTwo',{
     left: '-100%',
     duration: 0.6,
-},'a')
-.to('.slider', {
-    delay: 0.2,
+    scrollTrigger: {
+        markers: true,
+        trigger: '.sliderTwo',
+        scroller: 'body',
+        start: 'top -160%',
+        scrub: 3,
+    }
+});
+gsap.to('.slider', {
+    delay: 0.5,
     left: '-100%',
     duration: 0.5,
-}, 'a')
-.from('.slider-content', {
+    scrollTrigger: {
+        markers: true,
+        trigger: '.sliderTwo',
+        scroller: 'body',
+        start: 'top -160%',
+        scrub: 3,
+    }
+});
+gsap.from('.slider-content', {
     delay: 0.2,
     duration: 1,
     y: 80,
-}, 'a')
+    scrollTrigger: {
+        markers: true,
+        trigger: '.sliderTwo',
+        scroller: 'body',
+        start: 'top -160%',
+        scrub: 3,
+    }
+});
