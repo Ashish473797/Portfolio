@@ -849,6 +849,11 @@ video {
   padding-bottom: 3px;
 }
 
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pl-2{
   padding-left: 0.5rem;
 }
@@ -879,6 +884,18 @@ video {
 
 .pt-\[54px\]{
   padding-top: 54px;
+}
+
+.pt-1{
+  padding-top: 0.25rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
 }
 
 .text-justify{
@@ -961,6 +978,10 @@ video {
 .text-secondary{
   --tw-text-opacity: 1;
   color: rgb(1 1 1 / var(--tw-text-opacity));
+}
+
+.underline{
+  text-decoration-line: underline;
 }
 
 .antialiased{
@@ -1049,6 +1070,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:underline:hover{
+  text-decoration-line: underline;
+}
+
 .hover\:brightness-\[100\%\]:hover{
   --tw-brightness: brightness(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1117,6 +1142,10 @@ video {
 
   .sm\:gap-4{
     gap: 1rem;
+  }
+
+  .sm\:gap-6{
+    gap: 1.5rem;
   }
 
   .sm\:px-14{
@@ -1215,6 +1244,14 @@ video {
     margin-bottom: 4rem;
   }
 
+  .md\:mb-4{
+    margin-bottom: 1rem;
+  }
+
+  .md\:mb-2{
+    margin-bottom: 0.5rem;
+  }
+
   .md\:h-\[220px\]{
     height: 220px;
   }
@@ -1251,6 +1288,16 @@ video {
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
