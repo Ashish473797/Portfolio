@@ -621,6 +621,10 @@ video {
   display: flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .hidden{
   display: none;
 }
@@ -1226,6 +1230,16 @@ video {
     padding-bottom: 2rem;
   }
 
+  .sm\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .sm\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .sm\:pl-12{
     padding-left: 3rem;
   }
@@ -1317,6 +1331,10 @@ video {
     margin-bottom: 6rem;
   }
 
+  .md\:mb-20{
+    margin-bottom: 5rem;
+  }
+
   .md\:h-\[220px\]{
     height: 220px;
   }
@@ -1340,6 +1358,16 @@ video {
   .md\:py-24{
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .md\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .md\:pt-10{
