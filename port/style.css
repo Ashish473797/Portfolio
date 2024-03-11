@@ -1096,6 +1096,10 @@ video {
     gap: 1rem;
   }
 
+  .max-sm\:p-4{
+    padding: 1rem;
+  }
+
   .max-sm\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1103,6 +1107,10 @@ video {
 
   .max-sm\:py-4{
     padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .max-sm\:pb-4{
     padding-bottom: 1rem;
   }
 
@@ -1225,6 +1233,22 @@ video {
     padding-top: 140px;
   }
 
+  .sm\:pr-4{
+    padding-right: 1rem;
+  }
+
+  .sm\:pr-8{
+    padding-right: 2rem;
+  }
+
+  .sm\:pb-8{
+    padding-bottom: 2rem;
+  }
+
+  .sm\:pb-16{
+    padding-bottom: 4rem;
+  }
+
   .sm\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1256,6 +1280,10 @@ video {
 
   .sm\:font-semibold{
     font-weight: 600;
+  }
+
+  .sm\:delay-1000{
+    transition-delay: 1000ms;
   }
 }
 
