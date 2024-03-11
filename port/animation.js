@@ -200,3 +200,67 @@ gsap.from('.projectThreeSlider-content', {
         start: 'top -200%',
     }
 },);
+
+
+// project four 
+gsap.to('.projectFourInnerSlider', {
+    delay: 0.2,
+    left: '-100%',
+    duration: 0.5,
+    scrollTrigger: {
+        trigger: '.projectFourInnerSlider',
+        scroller: 'body',
+        start: 'top -220%',
+    }
+},);
+gsap.to('.projectFourOuterSlider',{
+    left: '-100%',
+    duration: 0.6,
+    scrollTrigger: {
+        trigger: '.projectFourOuterSlider',
+        scroller: 'body',
+        start: 'top -220%',
+    }
+},);
+gsap.from('.projectFourSlider-content', {
+    delay: 0.2,
+    duration: 1,
+    y: 80,
+    scrollTrigger: {
+        trigger: '.projectFourSlider-content',
+        scroller: 'body',
+        start: 'top -220%',
+    }
+},);
+
+
+// for project Five
+gsap.to('.projectFiveInnerSlider', {
+    delay: 0.2,
+    left: '-100%',
+    duration: 0.5,
+    scrollTrigger: {
+        trigger: '.projectFiveInnerSlider',
+        scroller: 'body',
+        start: 'top -240%',
+    }
+},);
+gsap.to('.projectFiveOuterSlider',{
+    left: '-100%',
+    duration: 0.6,
+    scrollTrigger: {
+        trigger: '.projectFiveOuterSlider',
+        scroller: 'body',
+        start: 'top -240%',
+    }
+},);
+gsap.from('.projectFiveSlider-content', {
+    delay: 0.2,
+    duration: 1,
+    y: 80,
+    scrollTrigger: {
+        trigger: '.projectFiveSlider-content',
+        scroller: 'body',
+        start: 'top -240%',
+    }
+},);
