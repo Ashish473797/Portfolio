@@ -858,6 +858,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pl-2{
   padding-left: 0.5rem;
 }
@@ -1308,6 +1313,10 @@ video {
     margin-bottom: 0.5rem;
   }
 
+  .md\:mb-24{
+    margin-bottom: 6rem;
+  }
+
   .md\:h-\[220px\]{
     height: 220px;
   }
@@ -1326,6 +1335,11 @@ video {
 
   .md\:flex-row{
     flex-direction: row;
+  }
+
+  .md\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .md\:pt-10{
