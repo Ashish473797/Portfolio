@@ -753,6 +753,10 @@ video {
   gap: 1rem;
 }
 
+.gap-6{
+  gap: 1.5rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -1154,6 +1158,14 @@ video {
 
   .sm\:gap-6{
     gap: 1.5rem;
+  }
+
+  .sm\:gap-1{
+    gap: 0.25rem;
+  }
+
+  .sm\:gap-10{
+    gap: 2.5rem;
   }
 
   .sm\:px-14{
