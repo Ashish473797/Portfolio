@@ -146,7 +146,7 @@ gsap.to('.projectTwoInnerSlider', {
     scrollTrigger: {
         trigger: '.projectTwoInnerSlider',
         scroller: 'body',
-        start: 'top -180%',
+        start: 'top -185%',
     }
 },);
 gsap.to('.projectTwoOuterSlider',{
@@ -155,7 +155,7 @@ gsap.to('.projectTwoOuterSlider',{
     scrollTrigger: {
         trigger: '.projectTwoOuterSlider',
         scroller: 'body',
-        start: 'top -180%',
+        start: 'top -185%',
     }
 },);
 gsap.from('.projectTwoSlider-content', {
@@ -165,7 +165,7 @@ gsap.from('.projectTwoSlider-content', {
     scrollTrigger: {
         trigger: '.projectTwoSlider-content',
         scroller: 'body',
-        start: 'top -180%',
+        start: 'top -185%',
     }
 },);
 
@@ -178,7 +178,7 @@ gsap.to('.projectThreeInnerSlider', {
     scrollTrigger: {
         trigger: '.projectThreeInnerSlider',
         scroller: 'body',
-        start: 'top -200%',
+        start: 'top -210%',
     }
 },);
 gsap.to('.projectThreeOuterSlider',{
@@ -187,7 +187,7 @@ gsap.to('.projectThreeOuterSlider',{
     scrollTrigger: {
         trigger: '.projectThreeOuterSlider',
         scroller: 'body',
-        start: 'top -200%',
+        start: 'top -210%',
     }
 },);
 gsap.from('.projectThreeSlider-content', {
@@ -197,7 +197,7 @@ gsap.from('.projectThreeSlider-content', {
     scrollTrigger: {
         trigger: '.projectThreeSlider-content',
         scroller: 'body',
-        start: 'top -200%',
+        start: 'top -210%',
     }
 },);
 
@@ -210,7 +210,7 @@ gsap.to('.projectFourInnerSlider', {
     scrollTrigger: {
         trigger: '.projectFourInnerSlider',
         scroller: 'body',
-        start: 'top -220%',
+        start: 'top -235%',
     }
 },);
 gsap.to('.projectFourOuterSlider',{
@@ -219,7 +219,7 @@ gsap.to('.projectFourOuterSlider',{
     scrollTrigger: {
         trigger: '.projectFourOuterSlider',
         scroller: 'body',
-        start: 'top -220%',
+        start: 'top -235%',
     }
 },);
 gsap.from('.projectFourSlider-content', {
@@ -229,7 +229,7 @@ gsap.from('.projectFourSlider-content', {
     scrollTrigger: {
         trigger: '.projectFourSlider-content',
         scroller: 'body',
-        start: 'top -220%',
+        start: 'top -235%',
     }
 },);
 
@@ -242,7 +242,7 @@ gsap.to('.projectFiveInnerSlider', {
     scrollTrigger: {
         trigger: '.projectFiveInnerSlider',
         scroller: 'body',
-        start: 'top -240%',
+        start: 'top -260%',
     }
 },);
 gsap.to('.projectFiveOuterSlider',{
@@ -251,7 +251,7 @@ gsap.to('.projectFiveOuterSlider',{
     scrollTrigger: {
         trigger: '.projectFiveOuterSlider',
         scroller: 'body',
-        start: 'top -240%',
+        start: 'top -260%',
     }
 },);
 gsap.from('.projectFiveSlider-content', {
@@ -261,6 +261,6 @@ gsap.from('.projectFiveSlider-content', {
     scrollTrigger: {
         trigger: '.projectFiveSlider-content',
         scroller: 'body',
-        start: 'top -240%',
+        start: 'top -260%',
     }
 },);
