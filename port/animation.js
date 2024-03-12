@@ -64,6 +64,7 @@ logo.addEventListener('mouseleave', (e) => {
     })
 })
 
+
 let tl = gsap.timeline();
 
 tl.to('#loader', {
