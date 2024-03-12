@@ -781,6 +781,14 @@ video {
   width: 120px;
 }
 
+.w-\[48px\]{
+  width: 48px;
+}
+
+.w-\[24px\]{
+  width: 24px;
+}
+
 .max-w-screen-xl{
   max-width: 1280px;
 }
@@ -883,6 +891,10 @@ video {
   gap: 0.5rem;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -901,6 +913,10 @@ video {
 
 .border{
   border-width: 1px;
+}
+
+.border-t{
+  border-top-width: 1px;
 }
 
 .border-gray-500{
@@ -1052,6 +1068,14 @@ video {
   padding-bottom: 1rem;
 }
 
+.pt-8{
+  padding-top: 2rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
 .text-justify{
   text-align: justify;
 }
@@ -1100,6 +1124,11 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold{
@@ -1251,6 +1280,14 @@ video {
     gap: 1rem;
   }
 
+  .max-sm\:border{
+    border-width: 1px;
+  }
+
+  .max-sm\:border-t{
+    border-top-width: 1px;
+  }
+
   .max-sm\:p-4{
     padding: 1rem;
   }
@@ -1267,6 +1304,10 @@ video {
 
   .max-sm\:pb-4{
     padding-bottom: 1rem;
+  }
+
+  .max-sm\:pt-4{
+    padding-top: 1rem;
   }
 
   .max-sm\:text-center{
@@ -1327,6 +1368,10 @@ video {
     width: 240px;
   }
 
+  .sm\:w-\[42px\]{
+    width: 42px;
+  }
+
   .sm\:flex-\[60\%\]{
     flex: 60%;
   }
@@ -1353,6 +1398,14 @@ video {
 
   .sm\:gap-10{
     gap: 2.5rem;
+  }
+
+  .sm\:gap-8{
+    gap: 2rem;
+  }
+
+  .sm\:gap-2{
+    gap: 0.5rem;
   }
 
   .sm\:rounded-lg{
@@ -1419,6 +1472,11 @@ video {
     padding-bottom: 1rem;
   }
 
+  .sm\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   .sm\:pl-12{
     padding-left: 3rem;
   }
@@ -1455,6 +1513,14 @@ video {
     padding-left: 1.5rem;
   }
 
+  .sm\:pb-6{
+    padding-bottom: 1.5rem;
+  }
+
+  .sm\:pt-16{
+    padding-top: 4rem;
+  }
+
   .sm\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1482,6 +1548,11 @@ video {
   .sm\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .sm\:font-semibold{
