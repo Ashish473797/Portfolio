@@ -53,9 +53,9 @@
 
 /* nav-icon-6 */
 .nav-icon-6{
-    width: 32px;
-    height: 27px;
-    margin: 7px 7px;
+    width: 30px;
+    height: 25px;
+    margin: 6px 6px;
     position: relative;
     cursor: pointer;
     display: inline-block;
@@ -73,14 +73,14 @@
     left: 0px;
   }
   .nav-icon-6 span:nth-child(2){
-    top:12px;
+    top:11px;
     left: 0px;
   }
   .nav-icon-6 span:nth-child(3){
     bottom:0px;
     left: 0px;
   }
-  .nav-icon-6:not(.open):hover span:nth-child(1){
+  /* .nav-icon-6:not(.open):hover span:nth-child(1){
     transform:  scaleY(1.2);
     left: -5px;
   }
@@ -90,7 +90,7 @@
   .nav-icon-6:not(.open):hover span:nth-child(3){
     transform:  scaleY(1.2);
     left: 5px;
-  }
+  } */
   .nav-icon-6.open span:nth-child(1){
     transform: rotate(45deg) scaleX(0.7);
     top: 13PX;
