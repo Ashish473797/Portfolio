@@ -43,6 +43,10 @@
     content: '>';
 }
 
+.connect{
+    writing-mode: vertical-lr;
+}
+
 ::-webkit-scrollbar{
     display: none;
 }
