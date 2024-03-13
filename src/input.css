@@ -61,7 +61,7 @@
     display: inline-block;
   }
   .nav-icon-6 span{
-    background-color: rgb(107 114 128 / var(--tw-text-opacity));
+    background-color: rgb(156 163 175 / var(--tw-text-opacity));
     position: absolute;
     border-radius: 2px;
     transition: .3s cubic-bezier(.8, .5, .2, 1.4);
@@ -92,15 +92,18 @@
     left: 5px;
   } */
   .nav-icon-6.open span:nth-child(1){
+    background-color: rgb(107 114 128 / var(--tw-text-opacity));
     transform: rotate(45deg) scaleX(0.7);
     top: 13PX;
     left: -8px;
   }
   .nav-icon-6.open span:nth-child(2){
+    background-color: rgb(107 114 128 / var(--tw-text-opacity));
     transform: scale(0);
     transition-duration: 50ms
   }
   .nav-icon-6.open span:nth-child(3){
+    background-color: rgb(107 114 128 / var(--tw-text-opacity));
     transform: rotate(-45deg) scaleX(0.7);
     top: 13PX;
     left: 7px;
