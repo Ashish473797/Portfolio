@@ -243,7 +243,7 @@ gsap.to('.projectFiveInnerSlider', {
     scrollTrigger: {
         trigger: '.projectFiveInnerSlider',
         scroller: 'body',
-        start: 'top -240%',
+        start: 'top -220%',
     }
 },);
 gsap.to('.projectFiveOuterSlider',{
@@ -252,7 +252,7 @@ gsap.to('.projectFiveOuterSlider',{
     scrollTrigger: {
         trigger: '.projectFiveOuterSlider',
         scroller: 'body',
-        start: 'top -240%',
+        start: 'top -220%',
     }
 },);
 gsap.from('.projectFiveSlider-content', {
@@ -262,6 +262,14 @@ gsap.from('.projectFiveSlider-content', {
     scrollTrigger: {
         trigger: '.projectFiveSlider-content',
         scroller: 'body',
-        start: 'top -240%',
+        start: 'top -220%',
     }
 },);
+
+
+const icon = document.querySelectorAll('.icon');
+icon.forEach (icon => {  
+  icon.addEventListener('click', (event) => {
+    icon.classList.toggle("open");
+  });
+});
