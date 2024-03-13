@@ -273,3 +273,10 @@ icon.forEach (icon => {
     icon.classList.toggle("open");
   });
 });
+
+const menu = document.querySelector('#humburger');
+const scrollMenu = document.querySelector('#scrollMenu');
+
+menu.addEventListener('click', (e)=>{
+    scrollMenu.classList.toggle('down');
+})
