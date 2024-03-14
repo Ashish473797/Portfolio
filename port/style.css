@@ -616,6 +616,18 @@ video {
   top: 50%;
 }
 
+.left-1{
+  left: 0.25rem;
+}
+
+.left-\[2px\]{
+  left: 2px;
+}
+
+.left-\[\]{
+  left: ;
+}
+
 .z-10{
   z-index: 10;
 }
