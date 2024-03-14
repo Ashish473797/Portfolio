@@ -12,8 +12,10 @@
 
     <main id="main" class="bg-secondary text-primary overflow-hidden">
 
+        <!-- background imgage  -->
         <img src="./port/assets/patternTwo.jpg" class="absolute h-[100svh] sm:h-[742px]" alt="pattern">
 
+        <!-- scroller menu  -->
         <div id="scrollMenu" class="menu sm:hidden absolute right-0 down h-[100svh] bg-primary px-4 text-gray-500 font-medium font-fira transition-all border-l-4 border-moonstone">
             <div class="h-[100%] flex flex-col justify-center">
                 <span class="flex gap-12 flex-col">
@@ -29,9 +31,14 @@
 
         <!-- nav and header wraper  -->
         <div class="w-[100%] h-[100svh] sm:h-[742px]">
+
             <!-- navbar  -->
             <nav class="w-[100%] h-[8svh] sm:h-[12%] max-w-screen-xl mx-auto flex justify-between items-center px-2 sm:px-6 relative z-10">
+
+                <!-- logo  -->
                 <span class="logo"><img src="./port/assets/logo.png" class="w-[44px] sm:w-[58px] md:w-[68px] brightness-110" alt="logo"></span>
+
+                <!-- desktop menu  -->
                 <div>
                     <ul class="gap-12 text-[1.1em] text-gray-400 font-fira hidden sm:flex pt-6">
                         <li class="menuList cursor-pointer hover:text-primary ease-in"><a href="#about">About me</a></li>
@@ -41,25 +48,28 @@
                     </ul>
                 </div>
 
-                
-                    <div id="humburger" class="sm:hidden icon nav-icon-6">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+                <!-- humber menu  -->
+                <div id="humburger" class="sm:hidden icon nav-icon-6">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
 
             </nav>
             
             <!-- hero section  -->
             <header class="w-[100%] h-[92svh] sm:h-[88%] max-w-screen-xl mx-auto flex flex-col md:flex-row relative z-10">
                 
-
+                <!-- scroll button  -->
                 <a href="#about" class="absolute bottom-[20px] right-[45%] md:right-[28px]"><div class="border border-gray-400 text-gray-400 rounded-full px-1 sm:px-2 py-4 sm:py-6 text-lg sm:text-2xl"><i class="fa-solid fa-chevron-down"></i></div></a>
 
+                <!-- left hero section  -->
                 <div class="w-[100%] lg:w-[34%] pt-[140px] md:pt-[120px] lg:pt-[140px] flex justify-center relative">
 
+                    <!-- connect button  -->
                     <div id="con" class="sm:hidden border border-gray-400 connect absolute px-1 py-4 font-fira text-gray-400 cursor-pointer left-0 bottom-[24px] text-base">Connect</div>
 
+                    <!-- scroller connect  -->
                     <div class="hide connect-icon absolute px-2 text-gray-400 left-0 bottom-0">
                         <div class="flex flex-col gap-4 text-xl">
                             <a href="https://www.linkedin.com/in/ashish-gupta003/" target="_blank"><i class="icons cursor-pointer hover:text-primary fa-brands fa-linkedin ease-in"></i></a>
@@ -74,9 +84,11 @@
                         </div>
                     </div>
 
+                    <!-- profile image  -->
                     <div class="w-[160px] h-[160px] md:w-[220px] md:h-[220px] lg:w-[320px] lg:h-[320px] rounded-full"><img src="./port/assets/profile.png"  class="w-[100%] rounded-full" alt="profile"></div>   
                 </div>
 
+                <!-- right hero section  -->
                 <div class="w-[100%] lg:w-[66%] pt-[54px] sm:pt-[140px] lg:pt-[150px]">
                     <div class="w-[100%] max-sm:flex flex-col items-center">
                         <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-fira mb-4 sm:mb-4 lg:mb-6 flex items-center"><img src="./port/assets/wavingHand.gif" alt="helloHand" class="w-[28px] md:w-[48px]"><span>Hello, I am Ashish</span></h1>
@@ -117,11 +129,13 @@
         <!-- other sections  -->
         <section class="w-[100%] bg-secondary hidden relative">
 
+            <!-- running scroller  -->
             <div id="scroller" class="bg-moonstone py-3 sm:py-7 text-nowrap mb-8 md:mb-16">
                 <div id="scrollText" class="text-xl sm:text-4xl font-fira font-medium tracking-wide text-secondary antialiased"><span>Code Like a Pro, Inspire like a Visionary.</span><span>-</span><span>Code Like a Pro, Inspire like a Visionary.</span><span>-</span><span>Code Like a Pro, Inspire like a Visionary.</span><span>-</span></div>
                 <div id="scrollText" class="text-xl sm:text-4xl font-fira font-medium sm:font-semibold tracking-wide text-secondary antialiased"><span>Code Like a Pro, Inspire like a Visionary.</span><span>-</span><span>Code Like a Pro, Inspire like a Visionary.</span><span>-</span><span>Code Like a Pro, Inspire like a Visionary.</span><span>-</span></div>
             </div>
 
+            <!-- about section  -->
             <div id="about">
                 <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row py-8 md:py-16 max-sm:gap-4">
                     <div class="sm:flex-[60%] pl-2 pr-6 sm:pl-6 max-sm:order-2">
@@ -153,6 +167,7 @@
                 </div>
             </div>
 
+            <!-- project section  -->
             <div id="projects">
                 <div class="max-w-screen-xl mx-auto py-8 sm:py-16 px-2 sm:px-6">
                     <p class="tag text-lapis-blue text-lg font-fira">projects</p>
@@ -230,6 +245,7 @@
                 </div>
             </div>
 
+            <!-- contact section  -->
             <div id="contact">
                 <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row pt-8 md:py-16 max-sm:gap-4">
                     <div class="sm:flex-[55%] pl-2 pr-6 sm:pl-6">
@@ -265,6 +281,7 @@
                 </div>
             </div>
 
+            <!-- footer section  -->
             <footer class="border-t pb-4 pt-8 sm:pb-6 sm:pt-16 flex flex-col justify-center items-center gap-2 sm:gap-4">
                 <img src="./port/assets/logo.png" class="w-[24px] sm:w-[42px]" alt="logo">
                 <p class="text-xs sm:text-sm text-gray-400">Ashish Kumar Gupta © 2024</p>
@@ -281,9 +298,8 @@
                 </div>
             </footer>
 
-            
         </section>
-
+        
     </main>
      
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
