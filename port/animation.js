@@ -280,3 +280,18 @@ const scrollMenu = document.querySelector('#scrollMenu');
 menu.addEventListener('click', (e)=>{
     scrollMenu.classList.toggle('down');
 })
+
+const connect = document.querySelector('#con');
+const connectIcon = document.querySelector('.connect-icon');
+
+connect.addEventListener('click', (e) => {
+    e.stopPropagation();
+    connect.classList.add('hide');
+    connectIcon.classList.remove('hide');
+})
+
+const body = document.querySelector('#main');
+body.addEventListener('click', (e) => {
+    connectIcon.classList.add('hide');
+    connect.classList.remove('hide');
+})
