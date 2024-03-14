@@ -580,6 +580,10 @@ video {
   left: 0px;
 }
 
+.left-1{
+  left: 0.25rem;
+}
+
 .left-\[-100\%\]{
   left: -100%;
 }
@@ -614,18 +618,6 @@ video {
 
 .top-\[50\%\]{
   top: 50%;
-}
-
-.left-1{
-  left: 0.25rem;
-}
-
-.left-\[2px\]{
-  left: 2px;
-}
-
-.left-\[\]{
-  left: ;
 }
 
 .z-10{
